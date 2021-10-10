@@ -29,7 +29,7 @@ describe('angularjs homepage', function() {
 
       addTodo.sendKeys('write a protractor test');
       addButton.click();
-
+      //test
       expect(todoList.count()).toEqual(3);
       expect(todoList.get(2).getText()).toEqual('write a protractor test');
     });
